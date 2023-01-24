@@ -1,13 +1,13 @@
 // Oppgave 1
-//var num = prompt("Enter a number")
+var num = prompt("Enter a number")
 
-//if (num > 0) {
-//console.log("The number is a positive.")
-//alert("The number is a positive.")
-//} else if (num < 0) {
-//console.log("The number is a negative.")
-//} else {
-//console.log("The number is a zero")}
+if (num > 0) {
+console.log("The number is a positive.")
+alert("The number is a positive.")
+} else if (num < 0) {
+console.log("The number is a negative.")
+} else {
+console.log("The number is a zero")}
 
 // Oppgave 2
 let number = 89
@@ -157,13 +157,10 @@ if (number % 3 === 0) {
 
 
 // Oppgave 11
-let number3 = 5;
-
-if (number % 5 === 0) {
-  console.log(`${number3} can be divided by 5`);
-} else {
-  console.log(`${number3} cannot be divided by 5`);
-}
+const c = window.prompt('Write a number')
+if (c%5 == 0) { 
+ console.log('The number can be divided by 5');
+} else { console.log('The nnumber can not be divided by 5');}
 
 
 // Oppgave 12
