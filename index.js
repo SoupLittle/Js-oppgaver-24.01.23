@@ -64,7 +64,7 @@ if (dayNumber === 1) {
 }
 
 // Oppgave 6
-let dayNumber2 = 6;
+let dayNumber2 = 7;
 
 switch (dayNumber2) {
   case 1:
@@ -160,7 +160,7 @@ if (number % 3 === 0) {
 const c = window.prompt('Write a number')
 if (c%5 == 0) { 
  console.log('The number can be divided by 5');
-} else { console.log('The nnumber can not be divided by 5');}
+} else { console.log('The number can not be divided by 5');}
 
 
 // Oppgave 12
